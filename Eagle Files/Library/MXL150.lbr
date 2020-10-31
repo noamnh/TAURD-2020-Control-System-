@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="MX150L-194270049">
+<wire x1="-41.275" y1="-7.095" x2="41.275" y2="-7.095" width="0.1524" layer="51" locked="yes"/>
+<wire x1="41.275" y1="-7.095" x2="41.275" y2="7.095" width="0.1524" layer="51" locked="yes"/>
+<wire x1="41.275" y1="7.095" x2="-41.275" y2="7.095" width="0.1524" layer="51" locked="yes"/>
+<wire x1="-41.275" y1="7.095" x2="-41.275" y2="-7.095" width="0.1524" layer="51" locked="yes"/>
+<pad name="PIN12" x="2.93" y="2.92" locked="yes" drill="1.6"/>
+<pad name="PIN11" x="8.79" y="2.92" locked="yes" drill="1.6"/>
+<pad name="PIN10" x="14.65" y="2.92" locked="yes" drill="1.6"/>
+<pad name="PIN9" x="20.51" y="2.92" locked="yes" drill="1.6"/>
+<pad name="PIN4" x="2.93" y="-2.93" locked="yes" drill="1.6"/>
+<pad name="PIN3" x="8.79" y="-2.93" locked="yes" drill="1.6"/>
+<pad name="PIN2" x="14.65" y="-2.93" locked="yes" drill="1.6"/>
+<pad name="PIN1" x="20.51" y="-2.93" locked="yes" drill="1.6"/>
+<pad name="PIN13" x="-2.93" y="2.92" locked="yes" drill="1.6"/>
+<pad name="PIN14" x="-8.79" y="2.92" locked="yes" drill="1.6"/>
+<pad name="PIN15" x="-14.65" y="2.92" locked="yes" drill="1.6"/>
+<pad name="PIN16" x="-20.51" y="2.92" locked="yes" drill="1.6"/>
+<pad name="PIN5" x="-2.93" y="-2.93" locked="yes" drill="1.6"/>
+<pad name="PIN6" x="-8.79" y="-2.93" locked="yes" drill="1.6"/>
+<pad name="PIN7" x="-14.65" y="-2.93" locked="yes" drill="1.6" rot="R180"/>
+<pad name="PIN8" x="-20.51" y="-2.93" locked="yes" drill="1.6"/>
+<hole x="-38.38" y="0" drill="4.86" locked="yes"/>
+<hole x="38.38" y="0" drill="4.86" locked="yes"/>
+<dimension x1="-41.275" y1="-7.095" x2="41.275" y2="-7.095" x3="0" y3="-18.2" locked="yes" textsize="1.778" layer="47"/>
+<dimension x1="38.4" y1="0" x2="-38.4" y2="-0.2" x3="0.02843125" y3="-11.017634375" locked="yes" textsize="1.778" layer="47" dtype="diameter"/>
+<dimension x1="-8.79" y1="3" x2="-2.93" y2="3" x3="-5.86" y3="11.4" textsize="1.778" layer="47" dtype="diameter"/>
+<wire x1="-35.525" y1="-7.095" x2="35.525" y2="-7.095" width="0.1524" layer="21" locked="yes"/>
+<wire x1="35.525" y1="-7.095" x2="35.525" y2="-4.695" width="0.1524" layer="21" locked="yes"/>
+<wire x1="35.525" y1="-4.695" x2="41.275" y2="-4.695" width="0.1524" layer="21" locked="yes"/>
+<wire x1="41.275" y1="-4.695" x2="41.275" y2="7.095" width="0.1524" layer="21" locked="yes"/>
+<wire x1="-41.275" y1="7.095" x2="-41.275" y2="-4.695" width="0.1524" layer="21" locked="yes"/>
+<wire x1="-41.275" y1="-4.695" x2="-35.525" y2="-4.695" width="0.1524" layer="21" locked="yes"/>
+<wire x1="-35.525" y1="-4.695" x2="-35.525" y2="-7.095" width="0.1524" layer="21" locked="yes"/>
+<text x="-11.2" y="-0.7" size="1.778" layer="25" font="vector">MX150L 1942700049</text>
+<text x="21" y="-5.5" size="1.27" layer="22" font="vector" rot="MR0">1</text>
+<text x="15.1" y="-5.5" size="1.27" layer="22" font="vector" rot="MR0">2</text>
+<text x="9.2" y="-5.5" size="1.27" layer="22" font="vector" rot="MR0">3</text>
+<text x="3.3" y="-5.6" size="1.27" layer="22" font="vector" rot="MR0">4</text>
+<text x="-2.5" y="-5.7" size="1.27" layer="22" font="vector" rot="MR0">5</text>
+<text x="-8.3" y="-5.6" size="1.27" layer="22" font="vector" rot="MR0">6</text>
+<text x="-14.1" y="-5.7" size="1.27" layer="22" font="vector" rot="MR0">7</text>
+<text x="-20.1" y="-5.7" size="1.27" layer="22" font="vector" rot="MR0">8</text>
+<text x="20.7" y="4.4" size="1.27" layer="22" font="vector" rot="MR0">9</text>
+<text x="15.8" y="4.4" size="1.27" layer="22" font="vector" rot="MR0">10</text>
+<text x="9.8" y="4.3" size="1.27" layer="22" font="vector" rot="MR0">11</text>
+<text x="3.9" y="4.3" size="1.27" layer="22" font="vector" rot="MR0">12</text>
+<text x="-2" y="4.2" size="1.27" layer="22" font="vector" rot="MR0">13</text>
+<text x="-7.9" y="4.2" size="1.27" layer="22" font="vector" rot="MR0">14</text>
+<text x="-13.6" y="4.2" size="1.27" layer="22" font="vector" rot="MR0">15</text>
+<text x="-19.5" y="4.1" size="1.27" layer="22" font="vector" rot="MR0">16</text>
+<dimension x1="-38.38" y1="0" x2="0" y2="0" x3="-19.19" y3="-14.33005" textsize="1.27" layer="47" dtype="diameter"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MX140L1942700049">
+<wire x1="-25.4" y1="22.86" x2="-25.4" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="-25.4" y1="-20.32" x2="-15.24" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-20.32" x2="-15.24" y2="22.86" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="22.86" x2="-25.4" y2="22.86" width="0.1524" layer="94"/>
+<pin name="A1" x="-30.48" y="20.32" length="middle"/>
+<pin name="A2" x="-30.48" y="17.78" length="middle"/>
+<pin name="A3" x="-30.48" y="15.24" length="middle"/>
+<pin name="A4" x="-30.48" y="12.7" length="middle"/>
+<pin name="A5" x="-30.48" y="10.16" length="middle"/>
+<pin name="A6" x="-30.48" y="7.62" length="middle"/>
+<pin name="A7" x="-30.48" y="5.08" length="middle"/>
+<pin name="A8" x="-30.48" y="2.54" length="middle"/>
+<pin name="A9" x="-30.48" y="0" length="middle"/>
+<pin name="A10" x="-30.48" y="-2.54" length="middle"/>
+<pin name="A11" x="-30.48" y="-5.08" length="middle"/>
+<pin name="A12" x="-30.48" y="-7.62" length="middle"/>
+<pin name="A13" x="-30.48" y="-10.16" length="middle"/>
+<pin name="A14" x="-30.48" y="-12.7" length="middle"/>
+<pin name="A15" x="-30.48" y="-15.24" length="middle"/>
+<pin name="A16" x="-30.48" y="-17.78" length="middle"/>
+<text x="-12.7" y="-10.16" size="1.6764" layer="95" font="vector" rot="R90">MX140L194270049</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MX140L-194270049">
+<description>Molex MX150L - 1942700049 ----
+Maximum per contact: 18A ----
+Maxium Voltage:600V ---
+ IP67 RATING ---
+Pitch: 5.84 mm ---
+Datasheet: https://www.molex.com/webdocs/datasheets/pdf/en-us/0194270049_PCB_HEADERS.pdf ----
+Drawing-----  https://www.molex.com/pdm_docs/sd/194270049_sd.pdf</description>
+<gates>
+<gate name="G$1" symbol="MX140L1942700049" x="30.48" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="MX150L-194270049">
+<connects>
+<connect gate="G$1" pin="A1" pad="PIN1"/>
+<connect gate="G$1" pin="A10" pad="PIN10"/>
+<connect gate="G$1" pin="A11" pad="PIN11"/>
+<connect gate="G$1" pin="A12" pad="PIN12"/>
+<connect gate="G$1" pin="A13" pad="PIN13"/>
+<connect gate="G$1" pin="A14" pad="PIN14"/>
+<connect gate="G$1" pin="A15" pad="PIN15"/>
+<connect gate="G$1" pin="A16" pad="PIN16"/>
+<connect gate="G$1" pin="A2" pad="PIN2"/>
+<connect gate="G$1" pin="A3" pad="PIN3"/>
+<connect gate="G$1" pin="A4" pad="PIN4"/>
+<connect gate="G$1" pin="A5" pad="PIN5"/>
+<connect gate="G$1" pin="A6" pad="PIN6"/>
+<connect gate="G$1" pin="A7" pad="PIN7"/>
+<connect gate="G$1" pin="A8" pad="PIN8"/>
+<connect gate="G$1" pin="A9" pad="PIN9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.5" severity="warning">
+Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
+The locking property on all objects of these types will not be understood in this version. 
+</note>
+</compatibility>
+</eagle>
